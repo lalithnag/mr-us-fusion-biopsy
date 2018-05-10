@@ -25,7 +25,7 @@ Affine registration can be implemented through the modules **RegistrationManual*
 
 ### Elastic Registration
 
-*Elastic* or *Deformable* registration is more representative of how the two medical volumes are related. This is because, there are motion and breathing artefacts from the patient that require a non-uniform mapping between the images. In contrast to affine registration which is a global transform - meaning, the entire volume was transformed by the same parameters; deformable registration is a local transform that acts on local patches of the image. This is performed by computing a vector field. One way to do this is the Demon's algorithm, from Euler-Lagrangian based regularisation methods (🚨 *Hardcore math alert* 🚨).
+*Elastic* or *Deformable* registration is more representative of how the two medical volumes are related. This is because, there are motion and breathing artefacts from the patient that require a non-uniform mapping between the images. In contrast to affine registration which is a global transform - meaning, the entire volume was transformed by the same parameters; deformable registration is a local transform that acts on local patches of the image. This is performed by computing a vector field. One way to do this is the Demon's algorithm, from Euler-Lagrangian based regularisation methods (🚨 **Hardcore math alert** 🚨).
 
 Generally, when we have two medical volumes, rigid registration is applied first - to sort of understand the global transformation, after which it is made more accurate by elastically deforming the volume.
 
@@ -46,7 +46,7 @@ I am planning to write a separate blog-post outlining the problems I faced, but 
 
 ## Authors
 
-* **Lalith nag** - [Github profile](https://github.com/lalithnag). Drop me a line if you want to know more or you're stuck at some place! :smiley: I will put up more elaborate blog posts soon. Until then, you can email me at lalith.sharan@ovgu.de
+* [Lalith Nag](https://github.com/lalithnag). Drop me a line if you want to know more or you're stuck at some place! :smiley: I will put up more elaborate blog posts soon. Until then, you can email me at lalith.sharan@ovgu.de
 
 ## License
 
