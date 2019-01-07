@@ -44,6 +44,10 @@ I am planning to write a separate blog-post outlining the problems I faced, but 
 
 [Helpful co-ordinate guide](http://www.grahamwideman.com/gw/brain/orientation/orientterms.htm)
 
+### Tips to use MeVisLab
+
+MevisLab unlike other visualisation software has its own scripting language MDL. Out of all the available options such as SimpleITK with Python, 3DSlicer scripting, etc. I found MevisLab to be the most useful of all. This was because it has an extensive library of GUI modules which can be leveraged. We can interface these modules through MDL. Although there is no extensive documentation examples of using MDL, one huge advantage is that all the scripts of the developed modules are readily accessible. This went a long way in helping me design many elements of my algorithm and of the GUI! The forum is also an invaluable resource. 
+
 ## Authors
 
 * [Lalith Nag](https://github.com/lalithnag). Drop me a line if you want to know more or you're stuck at some place! :smiley: I will put up more elaborate blog posts soon. Until then, you can email me at lalith.sharan@ovgu.de
@@ -55,4 +59,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * A **huge** thanks to Dr. Marko Rak & Anneke Meyer :bow:, my project supervisors for guiding me through many tasks and patiently answering all my questions.
-* This project is undertaken (and is currently ongoing) in the capacity of a *Student Research Assistant* at the *Computer Assisted Surgeries* group at the *Otto-von-Guericke University*, Magdeburg.
+* This project was undertaken in the capacity of a *Student Research Assistant* at the *Computer Assisted Surgeries* group at the *Otto-von-Guericke University*, Magdeburg.
